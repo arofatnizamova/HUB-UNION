@@ -199,6 +199,10 @@ a {
 
 /* custom styles */
 
+.icon-size-xl {
+    height: 110px;
+}
+
 .icon-size-md {
     height: 70px;
 }
@@ -270,5 +274,8 @@ a {
         height: 100%;
         z-index: 2;
         background: rgba(255, 255, 255, 0.785);
+    }
+    .icon-size-xl {
+        height: 80px;
     }
 }
