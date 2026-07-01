@@ -64,6 +64,10 @@ a {
     color: var(--color-corp-2)
 }
 
+.text-light-blue {
+    color: #6B9EEE;
+}
+
 .bg-corp {
     background: var(--color-corp);
 }
@@ -254,6 +258,29 @@ a {
     z-index: 2;
 }
 
+.border-lg-end {
+    border-right: 1px solid #BABABA;
+}
+
+.icon-form {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 2;
+    left: 8px;
+}
+
+.form-control {
+    padding: 20px 10px 20px 50px;
+    background: transparent;
+    border-radius: 11px solid #A7A7A7;
+}
+
+.bi-chat-square-text.icon-form {
+    top: 20px;
+    transform: unset;
+}
+
 @media(max-width: 990px) {
     .w-lg-fit-content {
         width: 100%;
@@ -277,5 +304,8 @@ a {
     }
     .icon-size-xl {
         height: 80px;
+    }
+    .border-lg-end {
+        border-right: none;
     }
 }
