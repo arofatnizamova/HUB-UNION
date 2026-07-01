@@ -159,6 +159,10 @@ a {
     margin-top: -40px;
 }
 
+.w-40 {
+    width: 40%;
+}
+
 .w-60 {
     width: 60%;
 }
@@ -169,6 +173,10 @@ a {
 
 .border-corp {
     border-color: var(--color-corp-2) !important;
+}
+
+.text-lg-white {
+    color: white;
 }
 
 
@@ -281,6 +289,10 @@ a {
     transform: unset;
 }
 
+.standarts img {
+    height: 100px;
+}
+
 @media(max-width: 990px) {
     .w-lg-fit-content {
         width: 100%;
@@ -307,5 +319,8 @@ a {
     }
     .border-lg-end {
         border-right: none;
+    }
+    .text-lg-white {
+        color: var(--color-corp);
     }
 }
