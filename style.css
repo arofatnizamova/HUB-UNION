@@ -1,7 +1,7 @@
 :root {
     --font-family-main: "Montserrat", sans-serif;
     --color-corp: #050D69;
-    --color-corp-2: #B80208;
+    --color-corp-2: #030947;
 }
 
 body {
@@ -66,6 +66,10 @@ a {
 
 .bg-corp {
     background: var(--color-corp);
+}
+
+.bg-corp-2 {
+    background: var(--color-corp-2);
 }
 
 .bg-corp-2 {
