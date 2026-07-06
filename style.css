@@ -293,6 +293,10 @@ a {
     height: 100px;
 }
 
+.p-height {
+    height: 50px;
+}
+
 @media(max-width: 990px) {
     .w-lg-fit-content {
         width: 100%;
